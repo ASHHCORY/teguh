@@ -5,7 +5,7 @@
             <div class="panel-heading">
                 <strong>
                     <span class="glyphicon glyphicon-th"></span>
-                    <span>Add New Customer</span>
+                    <span>Add New Sale</span>
                 </strong>
             </div>
             <div class="panel-body">
@@ -16,35 +16,34 @@
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="customer_id" placeholder="Customer id">
+                                <input type="text" class="form-control" name="item_code" placeholder="Item Code">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="cutomer_name" placeholder="Customer Name">
+                                <input type="text" class="form-control" name="item_name" placeholder="Item Name">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="customer_phone" placeholder="Customer Phone">
+                                <input type="number" class="form-control" name="item_quantity" placeholder="Item quantity">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="customer_email" placeholder="Customer Email">
+                                <input type="number" class="form-control" name="item_price" placeholder="Item Price">
+                                <span class="input-group-addon">.00</span>
                             </div>
                         </div>
-                        <button type="submit" name="add_customer" value="submit" class=" btn btn-danger">Add Customer</button>
+                        <button type="submit" name="add_product" value="submit" class=" btn btn-danger">Add Sale</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <?php include_once('footer.php'); ?>

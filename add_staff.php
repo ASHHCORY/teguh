@@ -5,7 +5,7 @@
             <div class="panel-heading">
                 <strong>
                     <span class="glyphicon glyphicon-th"></span>
-                    <span>Add New Customer</span>
+                    <span>Add New Staff</span>
                 </strong>
             </div>
             <div class="panel-body">
@@ -16,28 +16,28 @@
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="customer_id" placeholder="Customer id">
+                                <input type="text" class="form-control" name="staff_id" placeholder="Staff id">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="cutomer_name" placeholder="Customer Name">
+                                <input type="text" class="form-control" name="staff_name" placeholder="Staff Name">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="customer_phone" placeholder="Customer Phone">
+                                <input type="text" class="form-control" name="staff_phone" placeholder="Staff Phone">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="customer_email" placeholder="Customer Email">
+                                <input type="text" class="form-control" name="staff_email" placeholder="Staff Email">
                             </div>
                         </div>
-                        <button type="submit" name="add_customer" value="submit" class=" btn btn-danger">Add Customer</button>
+                        <button type="submit" name="add_staff" value="submit" class=" btn btn-danger">Add Customer</button>
                     </form>
                 </div>
             </div>
