@@ -38,11 +38,11 @@
   <li>
     <a href="#" class="submenu-toggle">
       <i class="glyphicon glyphicon-credit-card"></i>
-      <span>Sales</span>
+      <span>Order</span>
     </a>
     <ul class="nav submenu">
-      <li><a href="sales.php">Manage Sales</a> </li>
-      <li><a href="add_sale.php">Add Sale</a> </li>
+      <li><a href="order.php">Manage Order</a> </li>
+      <li><a href="add_sale.php">Add Order</a> </li>
     </ul>
   </li>
   <li>

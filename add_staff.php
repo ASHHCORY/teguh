@@ -36,8 +36,14 @@
                                 </span>
                                 <input type="text" class="form-control" name="staff_email" placeholder="Staff Email">
                             </div>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-th-large"></i>
+                                </span>
+                                <input type="text" class="form-control" name="staff_password" placeholder="Staff Password">
+                            </div>
                         </div>
-                        <button type="submit" name="add_staff" value="submit" class=" btn btn-danger">Add Customer</button>
+                        <button type="submit" name="add_staff" value="submit" class=" btn btn-danger">Add Staff</button>
                     </form>
                 </div>
             </div>

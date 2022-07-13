@@ -22,7 +22,7 @@
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
-                                <input type="text" class="form-control" name="cutomer_name" placeholder="Customer Name">
+                                <input type="text" class="form-control" name="customer_name" placeholder="Customer Name">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon">
@@ -35,6 +35,12 @@
                                     <i class="glyphicon glyphicon-th-large"></i>
                                 </span>
                                 <input type="text" class="form-control" name="customer_email" placeholder="Customer Email">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-th-large"></i>
+                                </span>
+                                <input type="text" class="form-control" name="customer_password" placeholder="Customer password">
                             </div>
                         </div>
                         <button type="submit" name="add_customer" value="submit" class=" btn btn-danger">Add Customer</button>

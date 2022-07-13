@@ -16,8 +16,9 @@
               <th class="text-center" style="width: 50px;">#</th>
               <th class="text-center" style="width: 10%;"> Code </th>
               <th class="text-center" style="width: 10%;"> name </th>
-              <th class="text-center" style="width: 10%;"> Quantity </th>
-              <th class="text-center" style="width: 10%;"> Price </th>
+              <th class="text-center" style="width: 10%;"> In-Stock </th>
+              <th class="text-center" style="width: 10%;"> Buying Price </th>
+              <th class="text-center" style="width: 10%;"> Selling Price </th>
               <th class="text-center" style="width: 100px;"> Actions </th>
             </tr>
           </thead>
@@ -34,7 +35,8 @@
                 <td class="text-center"> <?php echo $row["ITEM_CODE"]; ?></td>
                 <td class="text-center"> <?php echo $row["ITEM_NAME"]; ?></td>
                 <td class="text-center"> <?php echo $row["ITEM_QUANTITY"]; ?></td>
-                <td class="text-center"> <?php echo $row["ITEM_PRICE"]; ?></td>
+                <td class="text-center"> <?php echo $row["ITEM_BUYING_PRICE"]; ?></td>
+                <td class="text-center"> <?php echo $row["ITEM_SELLING_PRICE"]; ?></td>
                 <td class="text-center">
                   <div class="btn-group">
                     <a href="update_product.php?id=<?php echo $row['ITEM_CODE'];  ?>" class="btn btn-info btn-xs" title="Edit" data-toggle="tooltip">

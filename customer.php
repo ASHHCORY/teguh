@@ -32,7 +32,7 @@
                             <tr>
                                 <td class="text-center"> <?php echo $i ?></td>
                                 <td class="text-center"> <?php echo $row["CUSTOMER_ID"]; ?></td>
-                                <td class="text-center"> <?php echo $row["CUTOMER_NAME"]; ?></td>
+                                <td class="text-center"> <?php echo $row["CUSTOMER_NAME"]; ?></td>
                                 <td class="text-center"> <?php echo $row["CUSTOMER_PHONE"]; ?></td>
                                 <td class="text-center"> <?php echo $row["CUSTOMER_EMAIL"]; ?></td>
                                 <td class="text-center">

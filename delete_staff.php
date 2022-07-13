@@ -8,5 +8,5 @@ if ($result) {
     echo "Data Deleted Successfully.";
     header('location: staff.php');
 } else {
-    echo "Error.";
+    echo "x boleh delete woi.";
 }

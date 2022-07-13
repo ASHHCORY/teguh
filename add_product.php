@@ -35,7 +35,14 @@
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-usd"></i>
                                 </span>
-                                <input type="number" class="form-control" name="item_price" placeholder="Item Price">
+                                <input type="number" class="form-control" name="item_buy_price" placeholder="Item Buying Price">
+                                <span class="input-group-addon">.00</span>
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-usd"></i>
+                                </span>
+                                <input type="number" class="form-control" name="item_sell_price" placeholder="Item Selling Price">
                                 <span class="input-group-addon">.00</span>
                             </div>
                         </div>
